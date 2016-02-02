@@ -1,3 +1,4 @@
+//Sirve
 //Dependencies
 var express = require ('express');
 var mongoose = require('mongoose');
@@ -17,6 +18,11 @@ app.use('/api', require('./routes/api'));
 /*app.get('/', function(req, res){
   res.send('working');
 });*/
+
+//Serving Static Files
+app.use('/json', express.static('jsondummies'));
+
+app.use('/optimize', express.static('algorithm'));
 
 //Server
 app.listen(3000);
