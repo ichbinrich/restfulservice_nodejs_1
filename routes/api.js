@@ -29,6 +29,7 @@ router.delete('/basics', function(req,res){
 /*router.get('/products', function(req, res){
   res.send('API is working');
 });*/
+//router.get()
 
 //Return Router
 module.exports = router;

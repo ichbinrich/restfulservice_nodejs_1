@@ -21,8 +21,9 @@ app.use('/api', require('./routes/api'));
 
 //Serving Static Files
 app.use('/json', express.static('jsondummies'));
+//app.use('/test', require('./extras'));
 
-app.use('/optimize', express.static('algorithm'));
+app.use('/optimize', require('./algorithm/schedule'));
 
 //Server
 app.listen(3000);

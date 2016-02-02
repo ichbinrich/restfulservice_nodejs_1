@@ -4,12 +4,12 @@
       "type": "CinemaActivity",
       "properties": [
         {
-          "weight": 5,
-          "name": "movie",
+          "weight": 7,
+          "name": "Legend",
           "values": [
             {
               "weight": 5,
-              "value": "The Italian Job"
+              "value": "Drama"
             }
           ]
         }
@@ -19,43 +19,70 @@
   "Activity": [
     {
       "type": "CinemaActivity",
-      "name": "Hans im Glueck",
-      "cuisine": [
-        "Burgers"
+      "name": "Legend",
+      "genre": [
+        "Biography",
+        "Crime",
+        "Drama",
+        "Romance",
+        "Thriller"
       ],
-      "aggregateRating": 5.0
+      "aggregateRating": 6.1
     },
     {
       "type": "CinemaActivity",
-      "name": "Burger King",
-      "cuisine": [
-        "Burgers"
+      "name": "Alvin und die Chipmunks: Road Chip",
+      "genre": [
+        "Animation",
+        "Adventure",
+        "Comedy",
+        "Family",
+        "Fantasy",
+        "Music"
       ],
-      "aggregateRating": 3.8
+      "aggregateRating": 4.1
     },
     {
       "type": "CinemaActivity",
-      "name": "Vapiano",
-      "cuisine": [
-        "Italian"
+      "name": "Star Wars: Das Erwachen der Macht",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Fantasy",
+        "Sci-Fi"
       ],
-      "aggregateRating": 3.6
+      "aggregateRating": 8.4
     },
     {
       "type": "CinemaActivity",
-      "name": "Trattoria del Corso",
-      "cuisine": [
-        "Italian"
+      "name": "The Big Short",
+      "genre": [
+        "Biography",
+        "Drama"
       ],
-      "aggregateRating": 4.3
+      "aggregateRating": 7.9
     },
     {
       "type": "CinemaActivity",
-      "name": "Boussi Falafel",
-      "cuisine": [
-        "Lebanese"
+      "name": "James Bond 007 - Spectre",
+      "genre": [
+        "Action",
+        "Adventure",
+        "Thriller"
       ],
-      "aggregateRating": 4.7
+      "aggregateRating": 7.0
+    },
+    {
+      "type": "CinemaActivity",
+      "name": "The Hateful 8",
+      "genre": [
+        "Crime",
+        "Drama",
+        "Mystery",
+        "Thriller",
+        "Western"
+      ],
+      "aggregateRating": 8.0
     }
   ]
 }
